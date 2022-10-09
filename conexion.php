@@ -8,9 +8,9 @@ class Conectar
     {
       
 
-        $host = "localhost";
+        $host = "localhost:8889";
         $user = "root";
-        $password = "";
+        $password = "root";
         $db = "psc";  
 
         $con = mysqli_connect($host, $user, $password, $db);
